@@ -1,0 +1,101 @@
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+}
+
+.logo-img {
+    height: 50px;  /* Control the size */
+    width: auto;
+    border-radius: 10px;  /* Smooth rounded corners */
+}
+
+.navbar {
+    background: linear-gradient(90deg, #0a1931, #0c2461);
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff ;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8d210 ;
+}
+
+/* Cards Section */
+.container {
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 25px;
+    height: 100%;
+    box-shadow: 0px 4px 8px rgba(201, 11, 11, 0.15);
+    transition: transform 0.3s ease-in-out;
+    background: #ffffff;
+   
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 400;
+    color: #0c2461;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card-body {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #305797, #0c2461);
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0c2461, #0a1931);
+    transform: scale(1.05);
+}
+
+
+
+.image-container {
+
+    transition: filter 0.3s ease;
+    height: 200px;
+    object-fit: cover; /
+
+}
+
+.image-container:hover  {
+
+    filter: blur(2px);
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

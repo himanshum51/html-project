@@ -1,0 +1,85 @@
+/* Default styles are already defined in style.css */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .image-container {
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    footer .col-md-4 {
+        text-align: center;
+    }
+}
+
+/* Medium devices (between 577px and 768px) */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .image-container {
+        max-height: 250px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+/* Large devices (between 769px and 992px) */
+@media (max-width: 992px) {
+    .navbar .btn {
+        padding: 10px 20px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .image-container {
+        max-height: 300px;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+}
+
+/* Extra Large devices (above 1200px) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .navbar-brand svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+}
